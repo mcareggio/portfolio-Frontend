@@ -1,6 +1,48 @@
+h1{
+    font-size: 4em;
+}
 .background-dark{
     background-color: black;
 }
+@media only screen and (max-width : 800px){
+    .fullpageheight{
+        height: auto !important;
+    }        
+}
 .fullpageheight{
     height: 100vh;
+    width: 100hv;
+    padding-top: 100px;
+}
+.contflxpg{
+    width: 50%;
+}
+.cont-welcomepg{
+    
+    padding-top: 50px;
+}
+.img-avatar{
+    margin-left: 40px;
+    width: 80%;
+
+}
+
+.flx-align-bottom{
+    display: flex;
+    align-items:flex-end;
+}
+button{
+    margin-top: 20px;
+
+}
+.btn-color{
+    font-weight: 500;
+    background-color: #00aeff;
+    color: black;
+}
+.color-white{
+    color: white;
+}
+.color-scnd{
+    color:#00aeff;
 }
