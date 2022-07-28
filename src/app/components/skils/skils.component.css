@@ -1,0 +1,26 @@
+.skilbox{
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--thrd);
+}
+.skil-boxes-grid{
+    margin-top: 40px;
+}
+.skils-icon{
+
+}
+h3{
+    text-align: center;
+    align-content: center;
+    color:var(--scnd);
+}
+h2{
+    text-align: center;
+    color:var(--white);
+}
+h4{
+
+}
+p{
+
+}

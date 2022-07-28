@@ -1,13 +1,13 @@
-<div id="about">
+<div id="about" class="container-fluid">
 <div class="container  fullpageheight">
     <div class="row">
-        <div class="col-md-6">
-            <img clss="img-about" src="{{ownfotoscr}}" alt="fotografia"/>
+        <div class="col-md-6 maring-smll">
+            <img class="img-about" src="{{ownfotoscr}}" alt="fotografia"/>
         </div>
         <div class="col-md-6">
             <h3>{{secondtitle}}</h3>
             <h2>{{firsttitle}}</h2>
-            <p>{{abouttext}}</p>
+            <p *ngFor="let text of abouttext">{{text}}</p>
         </div>
     </div>
 </div>

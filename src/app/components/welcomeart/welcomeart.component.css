@@ -1,15 +1,6 @@
 h1{
     font-size: 4em;
 }
-.background-dark{
-    background-color: black;
-}
-@media only screen and (max-width : 800px){
-    .fullpageheight{
-        height: auto !important;
-    }        
-}
-
 .contflxpg{
     width: 50%;
 }

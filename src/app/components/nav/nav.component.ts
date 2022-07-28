@@ -4,10 +4,10 @@ const navbarBrand="Marcos Careggio";
 const NAVITEMS=[
   {text:"Home",path:"#home"},
   {text:"About",path:"#about"},
-  {text:"Skils",path:"skils"},
-  {text:"Studies",path:"studies"},
-  {text:"Proyects",path:"proyects"},
-  {text:"Contact",path:"contact-me"}
+  {text:"Skils",path:"#skils"},
+  {text:"Studies",path:"#studies"},
+  {text:"Proyects",path:"#proyects"},
+  {text:"Contact",path:"#contact-me"}
   ];
 
 @Component({

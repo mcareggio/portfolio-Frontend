@@ -1,1 +1,15 @@
-<p>skils works!</p>
+<div id="skils" class="container-fluid background-dark">
+    <div class="container fullpageheight">
+        <h3>What I can do _____</h3>
+        <h2>My Skils</h2>
+        <div class="row skil-boxes-grid">
+            <div class="col-md-4" *ngFor="let skil of skils">
+                <div class="skilbox">
+                    <img src="skil.iconPath" class="skils-icon" alt="icon">
+                    <h4>{{skil.title}}</h4>
+                    <p>{{skil.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
