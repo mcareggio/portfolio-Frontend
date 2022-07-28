@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 const navbarBrand="Marcos Careggio";
 const NAVITEMS=[
-  {text:"Home",path:"home"},
-  {text:"About",path:"about"},
+  {text:"Home",path:"#home"},
+  {text:"About",path:"#about"},
   {text:"Skils",path:"skils"},
   {text:"Studies",path:"studies"},
   {text:"Proyects",path:"proyects"},
