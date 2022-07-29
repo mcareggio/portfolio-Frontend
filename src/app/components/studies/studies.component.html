@@ -1,1 +1,17 @@
-<p>studies works!</p>
+<div id="studies" class="container-fluid fullpageheight">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 cntr-elements">
+            <div *ngFor="let studiecat of stuidecats" class="studie-box box-style">
+                <div class="studie-item">
+                    <h2>{{studiecat.title}}</h2>
+                    <ul>
+                    <li *ngFor="let studie of getStudiesById(studiecat.id)"><span class="strng-underline">{{studie.title}}</span> - {{studie.institucion}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+

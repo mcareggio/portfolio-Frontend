@@ -1,17 +1,18 @@
-.skilbox{
-    width: 300px;
-    height: 300px;
+.skilbox-sz{
+    /*width: 300px;
+    height: 300px;*/    
+}
+
+.skilbox-pd{
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 20px;
-    background-color: rgb(10, 10, 10);
-    /*border: 1px solid rgb(10, 10, 10);;*/
-    box-shadow: 1px 4px 8px var(--scnd)
-    /*box-shadow: 0 1.6rem 2.4rem rgba(48, 48, 48, 0.25);*/
+    padding-bottom: 50px;
+    margin-bottom: 40px;
 }
 .skil-boxes-grid{
     margin-top: 40px;
+   
     
 }
 .skils-icon{
