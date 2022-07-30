@@ -6,7 +6,7 @@
                 <div class="studie-item">
                     <h2>{{studiecat.title}}</h2>
                     <ul>
-                    <li *ngFor="let studie of getStudiesById(studiecat.id)"><span class="strng-underline">{{studie.title}}</span> - {{studie.institucion}}</li>
+                    <li *ngFor="let studie of getStudiesById(studiecat.id)"><fa-icon class="list-icon" [icon]="faCode"></fa-icon><span class="strng-underline">{{studie.title}}</span> - {{studie.institucion}}</li>
                     </ul>
                 </div>
             </div>

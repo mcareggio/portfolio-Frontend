@@ -14,6 +14,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { LoginComponent } from './components/login/login.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProyectsComponent } from './components/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AboutComponent,
     ContactComponent,
     LoginComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,

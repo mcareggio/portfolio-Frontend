@@ -18,7 +18,14 @@ h2{
     text-decoration: underline;
     font-weight: bold;
 }
+ul{
+    padding: 10px;
+}
 li{
     list-style: none;
+    
     color: var(--scnd);
+}
+.list-icon{
+    margin-right: 5px;
 }
