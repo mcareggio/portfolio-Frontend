@@ -15,7 +15,8 @@ import { LoginComponent } from './components/login/login.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProyectsComponent } from './components/proyects/proyects.component';
-
+import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FullpagealertComponent } from './components/fullpagealert/fullpagealert.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +30,16 @@ import { ProyectsComponent } from './components/proyects/proyects.component';
     ContactComponent,
     LoginComponent,
     LandingpageComponent,
-    ProyectsComponent
+    ProyectsComponent,
+    FullpagealertComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

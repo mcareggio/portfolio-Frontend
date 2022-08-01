@@ -1,1 +1,48 @@
-<p>contact works!</p>
+<div class="container-fluid fullpageheight" id="contact-me">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="cont-contact-item">
+                    <a href="mailto:marcoscareggio@gmial.com"><fa-icon [icon]="faEnvelope"></fa-icon> marcoscareggio@gmial.com</a>
+                </div>
+                <div class="cont-contact-item">
+                    <a href="phone:+549 2302 640828"><fa-icon [icon]="faPhoneSquare"></fa-icon> +549 2302 640828</a>
+                </div>
+                <div class="cont-contact-item">
+                    <a href="https://goo.gl/maps/XFv6KSBwYnqDRnaG9"><fa-icon [icon]="faLocationDot"></fa-icon> Caleufu, La Pampa, Argentina</a>
+                </div>
+                
+                
+            </div>
+            <div class="col-md-6">
+                <div class="box-style formcontactbox">
+                    <form [formGroup]="formContact" (ngSubmit)="onSubmit($event)">
+                        <div class="mb-3">
+                            <label class="form-label" for="fullnamecontact">Full Name</label>
+                            <input class="form-control" type="text" id="fullnamecontact" maxlength="50" formControlName="fullnamecontact" placeholder="Enter your Full Name"/>
+                            <div *ngIf="Fullname?.touched && Fullname?.hasError('required')" class="error">Full Name is required</div> 
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="emailcontact">E-Mail</label>
+                            <input class="form-control" type="text" id="emailcontact" formControlName="emailcontact" placeholder="Enter your email"/>
+                        </div>
+                        <div class="mb-3"> 
+                            <label class="form-label" for="phonenumbercontact">Phone Number</label>
+                            <input class="form-control" type="text" id="phonenumbercontact" formControlName="phonenumbercontact" placeholder="Enter your phone number"/>
+                        </div>
+                        <div *ngIf="(Email?.touched || Phone?.touched)&&(!validateEmailPhone())" class="error">Email or Phone is required</div>
+                        <div class="mb-3">
+                            <label class="form-label" for="messagecontact">Message</label>
+                            <textarea class="form-control" name="messagecontact" id="messagecontact" formControlName="messagecontact" cols="30" rows="6" placeholder="Message"></textarea>
+                         </div>
+                        <div class="mb-3">
+                           <input type="submit" title="Send" name="Send" class="btn btn-color"/> 
+                        </div>
+                    </form>
+                    </div> 
+            </div>
+        </div>
+    </div>
+    
+</div>
+<app-fullpagealert [aviso]="aviso"></app-fullpagealert>

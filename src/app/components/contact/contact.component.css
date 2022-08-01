@@ -1,0 +1,38 @@
+#contact-me{
+    position: relative;
+}
+.cont-contact-item{
+    
+    font-size: 2em;
+    width: auto;
+    margin-bottom: 40px;
+
+}
+.cont-contact-item > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--scnd);
+}
+.cont-contact-item > a:visited{
+    text-decoration: none;
+    color: var(--scnd);
+}
+fa-icon{
+    font-size: 1.2em;
+}
+.form-label{
+    font-weight: 500;
+    color:var(--scnd);
+}
+.btn-color{
+    font-weight: 500;
+    background-color: var(--scnd);
+    border-color: var(--scnd);
+    color: var(--black);
+}
+.formcontactbox{
+    padding: 2%;
+}
+.error{
+    color: red;
+}

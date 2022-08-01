@@ -1,0 +1,35 @@
+.fullpagealertcont{
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.842);
+    z-index: 999999;
+}
+.tituloaviso{
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: var(--scnd);
+    border-radius:20px 20px 0 0;
+    color:var(--white)
+}
+p{
+    margin-left: 20px;
+    color: var(--white);
+}
+.alertbox{
+    margin:auto auto;
+    width: 50%;
+}
+.btn-color{
+    font-weight: 500;
+    background-color: var(--scnd);
+    border-color: var(--scnd);
+    color: var(--black);
+}
+.btn{
+    margin: 20px;
+}

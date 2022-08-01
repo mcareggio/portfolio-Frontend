@@ -1,0 +1,8 @@
+<div *ngIf="aviso.visible" class="container-fluid fullpageheight fullpagealertcont" #fullpagealert>
+    <div class="alertbox box-style">
+        <div class="tituloaviso"><h2>{{aviso.titulo}}</h2></div>
+        
+        <p>{{aviso.cuerpo}}</p>
+        <button type="button" class="btn btn-color" (click)="onClickBtn()">{{aviso.textoboton}}</button>
+    </div>
+</div>

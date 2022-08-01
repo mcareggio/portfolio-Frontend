@@ -29,9 +29,11 @@ const PROYECTS:ProyectsInterface[]=[
   styleUrls: ['./proyects.component.css']
 })
 export class ProyectsComponent implements OnInit {
+  
   public proyects:ProyectsInterface[];
   public fagithub=faGithub;
   public faLink=faLink;
+  
   constructor() { 
     this.proyects=PROYECTS;
   }
@@ -39,4 +41,11 @@ export class ProyectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getRows(){
+    return [1,2];
+  }
+  getProyects(row:number){
+    console.log("row"+row);
+    return this.proyects;
+  }
 }

@@ -1,7 +1,7 @@
 <div class="fullpageheight background-dark" id="proyects">
     <div class="container">
-        <div class="row">
-        <div class="col-md-6" *ngFor="let proyect of proyects">
+        <div class="row" *ngFor="let row of getRows()">
+        <div class="col-md-6" *ngFor="let proyect of getProyects(row)">
             <div class="proyect-item box-style proyect-itmsz">
                 <div class="nonhovercont">
                 <img src="{{proyect.imglink}}" class="img-proyects" alt="{{proyect.title}}"/>
