@@ -40,7 +40,6 @@ export class ProyectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
   getRows(){
     return [1];
   }
