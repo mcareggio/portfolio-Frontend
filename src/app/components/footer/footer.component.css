@@ -1,0 +1,21 @@
+#footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contflex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+.contflexitem{
+    min-width: 100px;
+}
+fa-icon{
+    margin-right: 30px;
+    font-size:1.8em;
+}

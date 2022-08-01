@@ -42,7 +42,7 @@ export class ProyectsComponent implements OnInit {
   }
 
   getRows(){
-    return [1,2];
+    return [1];
   }
   getProyects(row:number){
     console.log("row"+row);
