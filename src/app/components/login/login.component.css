@@ -1,0 +1,17 @@
+.login-form-cont{
+    max-width: 30%;
+    min-width: 250px;
+    margin: auto auto;
+    margin-top: 5%;
+    color: var(--scnd);
+    padding: 20px;
+    
+}
+.btn-color{
+    margin-top: 15px;
+    background-color:var(--scnd);
+    color:var(--black);
+}
+.error{
+    color:red;
+}
